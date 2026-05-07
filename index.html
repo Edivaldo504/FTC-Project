@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTech Coin (FTC)</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #111827);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .highlight {
+      color: #00ffcc;
+    }
+
+    p {
+      font-size: 18px;
+      color: #ccc;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+    }
+
+    .buttons button {
+      padding: 16px 32px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .telegram { background: #0088cc; color: white; }
+    .twitter { background: #1da1f2; color: white; }
+    .etherscan { background: #f0b90b; color: black; }
+
+    button:hover {
+      transform: scale(1.08);
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    }
+
+    .section {
+      margin-top: 80px;
+    }
+
+    .card {
+      background: #111;
+      border-radius: 12px;
+      padding: 30px;
+      margin: 20px auto;
+      max-width: 600px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .countdown {
+      font-size: 32px;
+      margin-top: 20px;
+      color: #00ffcc;
+    }
+
+    .footer {
+      margin-top: 80px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>FinTech Coin <span class="highlight">(FTC)</span></h1>
+    <p>Um novo projeto está nascendo. E quem chega primeiro, chega na frente.</p>
+
+    <div class="buttons">
+      <a href="https://t.me/fintechcoinftc" target="_blank">
+        <button class="telegram">Entrar no Telegram</button>
+      </a>
+
+      <a href="https://x.com/fintechcoinftc" target="_blank">
+        <button class="twitter">Twitter Oficial</button>
+      </a>
+
+      <a href="https://sepolia.etherscan.io/address/0x7dd08a2f72E34990dB128864ba20d78CC000d81a#code" target="_blank">
+        <button class="etherscan">Ver Contrato</button>
+      </a>
+    </div>
+
+    <!-- CONTADOR -->
+    <div class="section">
+      <h2>Lançamento em breve</h2>
+      <div id="countdown" class="countdown"></div>
+    </div>
+
+    <!-- SOBRE -->
+    <div class="section">
+      <div class="card">
+        <h2>🚀 Sobre o Projeto</h2>
+        <p>
+          A FinTech Coin (FTC) é um projeto focado em inovação financeira,
+          trazendo transparência, segurança e oportunidades reais para quem entra cedo.
+        </p>
+      </div>
+    </div>
+
+    <!-- POR QUE ENTRAR -->
+    <div class="section">
+      <div class="card">
+        <h2>💣 Por que entrar agora?</h2>
+        <p>
+          ✔ Projeto em fase inicial  
+          ✔ Baixa concorrência  
+          ✔ Alto potencial de crescimento  
+          ✔ Comunidade começando agora  
+        </p>
+      </div>
+    </div>
+
+    <!-- ALERTA -->
+    <div class="section">
+      <div class="card">
+        <h2>⚠️ Aviso Importante</h2>
+        <p>
+          Este é o único Telegram oficial. Sempre verifique os links antes de interagir.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 FinTech Coin. Todos os direitos reservados.</p>
+    </div>
+  </div>
+
+  <!-- SCRIPT CONTADOR -->
+  <script>
+    var countDownDate = new Date("Jun 30, 2026 00:00:00").getTime();
+
+    var x = setInterval(function() {
+
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("countdown").innerHTML =
+        days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "LANÇADO 🚀";
+      }
+
+    }, 1000);
+  </script>
+
+</body>
+</html>
