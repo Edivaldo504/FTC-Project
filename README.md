@@ -9,10 +9,16 @@ https://edivaldo504.github.io/FTC-Project
 
 ---
 
+## 📜 Smart Contract
+
+0x7dd08a2f72E34990dB128864ba20d78CC000d81a
+
+---
+
 ## 🔒 Security
 
 - Smart Contract Verified  
-- Liquidity Lock  
+- Liquidity Locked  
 - Transparent Token Distribution  
 
 ---
@@ -34,10 +40,10 @@ https://edivaldo504.github.io/FTC-Project
 
 **Phase 2 — Market Entry**
 - Liquidity creation  
-- Initial trading  
+- Trading activation  
 
 **Phase 3 — Expansion**
-- CoinGecko & CoinMarketCap listing  
+- Listings on CoinGecko & CoinMarketCap  
 - Community growth  
 
 **Phase 4 — Ecosystem**
@@ -46,15 +52,24 @@ https://edivaldo504.github.io/FTC-Project
 
 ---
 
-## 📄 Whitepaper
+## 🌍 Official Links
 
-Available in this repository.
+- Website: https://edivaldo504.github.io/FTC-Project  
+- GitHub: https://github.com/Edivaldo504  
+- Telegram: https://t.me/fintechcoinftc  
+- Twitter (X): https://x.com/fintechcoinftc  
 
 ---
 
 ## 📊 Transparency
 
 All project information is publicly available and verifiable.
+
+---
+
+## 📄 Whitepaper
+
+Available in this repository.
 
 ---
 
